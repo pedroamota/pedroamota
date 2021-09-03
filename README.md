@@ -2,7 +2,7 @@
 
 - 🌐  Cursando Engenharia de Software no Inatel
 - 📚  Atualmente estudando Java e MySQL 
-- 🔭  Estou a procura um estágio na area de programação
+- 🔭  Estou a procura de um estágio na área de programação
 
 ##
 <div>
