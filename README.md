@@ -4,14 +4,13 @@
 - 📚  Atualmente estudando Java e MySQL 
 - 🔭  Estou a procura de um estágio na área de programação
 
-##
+<!--
 <div>
   <!--<img height="180em" src="https://github-readme-stats.vercel.app/api?username=pedro208&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>-->
   <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedro208&layout=compact&langs_count=7&theme=tokyonight"/>
 
 </div>
-
-##
+-->
 
 <div>
 
