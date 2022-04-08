@@ -1,7 +1,7 @@
 ### Futuro Eng. de Software 🎓
 
 - 🌐  Cursando Engenharia de Software no Inatel
-- 📚  Atualmente estudando Java e MySQL 
+- 📚  Atualmente estudando Python e NoSQL 
 - 🔭  Estou a procura de um estágio na área de programação
 
 <!--
