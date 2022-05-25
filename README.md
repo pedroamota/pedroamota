@@ -2,7 +2,7 @@
 
 - 🌐  Cursando Engenharia de Software no Inatel
 - 📚  Sempre em busca de mais connhecimento
-- 🔭  Desemvolvedor Flutter
+- 🔭  Desenvolvedor Flutter
 
 <!--
 <div>
