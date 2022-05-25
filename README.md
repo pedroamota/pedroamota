@@ -1,8 +1,8 @@
 ### Futuro Eng. de Software 🎓
 
 - 🌐  Cursando Engenharia de Software no Inatel
-- 📚  Atualmente estudando Python e NoSQL 
-- 🔭  Estou a procura de um estágio na área de programação
+- 📚  Sempre em busca de mais connhecimento
+- 🔭  Desemvolvedor Flutter
 
 <!--
 <div>
