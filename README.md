@@ -1,6 +1,6 @@
 ### Futuro Eng. de Software 🎓
 
-- 🌐  Cursando Engenharia de Software no Inatel
+- 🌐  Cursando Engenharia de Software - Inatel
 - 📚  Sempre em busca de mais connhecimento
 - 🔭  Desenvolvedor Flutter
 
