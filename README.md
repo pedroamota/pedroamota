@@ -15,7 +15,7 @@
 
 ###
 
-<p align="left">Meu nome é Pedro, tenho 21 anos<br><br>- 🔭 Dev Mobile<br>- 📚 Eng. de Software<br>- ⚡ Me interesso muito pelo mercado financeiro</p>
+<p align="left">Meu nome é Pedro, tenho 22 anos<br><br>- 🔭 Dev Mobile<br>- 📚 Eng. de Software<br>- ⚡ Me interesso muito pelo mercado financeiro</p>
 
 ###
 
