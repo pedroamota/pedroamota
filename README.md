@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">Meu nome é Pedro, tenho 23 anos<br>- 📚 Eng. de Software<br>- ⚡ Me interesso muito pelo mercado financeiro</p>
+<p align="left">Meu nome é Pedro, tenho 23 anos.<br>- 📚 Bacharelado em Eng. de Software<br>- ⚡ Me interesso muito pelo mercado financeiro</p>
 
 ###
 
