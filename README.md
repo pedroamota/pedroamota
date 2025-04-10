@@ -1,107 +1,44 @@
-## 🛠 Arquitetura & Boas Práticas
+<h1 align="center">Pedro Augusto da Luz Mota</h1>
+<p align="center">Engenheiro de Software • Fullstack & DevOps • Linux 🐧</p>
 
-Princípios técnicos adotados para garantir qualidade, manutenibilidade e escalabilidade:
-
-### 🔄 **Versionamento**
-| Categoria           | Ferramentas/Padrões                                  | Exemplo/Benefício                          |
-|----------------------|------------------------------------------------------|--------------------------------------------|
-| **Conventional Commits** | [Commitlint](https://commitlint.js.org/) + [Husky](https://typicode.github.io/husky/) | `✨ feat: Autenticação via OAuth2`         |
-| **Branch Strategy**  | Git Flow ou GitHub Flow                              | `feat/oauth-integration`                   |
-| **Semantic Versioning** | [SemVer](https://semver.org/)                     | `v1.2.0` (Major.Minor.Patch)               |
-
-![GitHub Actions](https://img.shields.io/github/actions/workflow/status/seuuser/seurepo/build.yml?style=flat-square)
+<p align="center">
+  <a href="mailto:pedro.mota@ges.inatel.br">📧 Email</a> •
+  <a href="https://linkedin.com/in/pedroamota">💼 LinkedIn</a>
+</p>
 
 ---
 
-### 🧩 **Padrões de Projeto**
-| Categoria            | Implementação                                        | Casos de Uso                              |
-|-----------------------|------------------------------------------------------|--------------------------------------------|
-| **Design Patterns**   | MVC, Repository, Strategy, Factory                   | Isolamento de regras de negócio            |
-| **Injeção de Dependência** | [Spring DI](https://spring.io/)/[Koin](https://insert-koin.io/) | Testabilidade + Baixo acoplamento          |
-| **Arquitetura**       | Clean Architecture/Hexagonal                         | `Core ← Infrastructure ← Presentation`    |
+### 👨‍💻 Sobre mim
 
-**Exemplo de DI (Kotlin):**
-```kotlin
-class UserService(
-    private val repository: UserRepository // Injetado
-) {
-    fun create(user: User) = repository.save(user)
-}
-```
+Sou engenheiro de software em formação, com experiência sólida no desenvolvimento mobile com Flutter e cada vez mais apaixonado por back-end, DevOps e sistemas distribuídos.
+
+Tenho interesse especial por ambientes Linux, arquiteturas escaláveis, automação de processos e tudo que envolva criar software robusto e bem estruturado.
 
 ---
 
-### 🧪 **Testes Automatizados**
-| Tipo                 | Ferramentas                                          | Cobertura Alvo       |
-|----------------------|------------------------------------------------------|----------------------|
-| Unitários            | JUnit, MockK, Jest                                   | 80%+                 |
-| Integração           | Testcontainers, SpringBootTest                       | Componentes críticos |
-| E2E                  | Cypress, Appium                                      | Fluxos principais    |
+### Tecnologias & Ferramentas
 
-**Pipeline de Testes:**
-```yaml
-# .github/workflows/tests.yml
-- name: Run Unit Tests
-  run: ./gradlew test
-- name: E2E Tests
-  run: npm run test:e2e
-```
+- **Mobile**: Flutter, Dart  
+- **Backend**: Go (em aprendizado ativo), Python (FastAPI, Django), Node.js  
+- **Banco de Dados**: PostgreSQL, MySQL, MongoDB, Firebase  
+- **DevOps**: Docker, GitHub Actions, CI/CD, Jenkins  
+- **Outros**: Linux, Git, REST APIs, Clean Architecture, SOLID, testes automatizados
 
 ---
 
-### 🚀 **CI/CD & DevOps**
-| Etapa                | Ferramentas                                          | Benefício                        |
-|----------------------|------------------------------------------------------|----------------------------------|
-| Build                | Gradle/Maven, Webpack                                | Artefatos otimizados            |
-| Deploy               | Docker + Kubernetes, AWS Elastic Beanstalk           | Escalabilidade automática       |
-| Monitoramento        | Prometheus + Grafana, New Relic                      | Alertas em tempo real           |
+### Projetos em foco
 
-**Exemplo de Deploy:**
-```bash
-# Dockerfile
-FROM openjdk:17-alpine
-COPY build/libs/app.jar /app.jar
-ENTRYPOINT ["java","-jar","/app.jar"]
-```
+- **[ImobManager](https://github.com/seuuser/imobmanager)** — sistema de gerenciamento imobiliário com Go + Mongo + arquitetura robusta  
+- **Apps Flutter** publicados na Play Store com foco em usabilidade e performance  
+- **Infraestrutura local**: experiência com Docker, automação e servidores caseiros
 
 ---
 
-### 🧹 **Code Quality**
-| Ferramenta            | Função                                               | Config Recomendada              |
-|----------------------|------------------------------------------------------|----------------------------------|
-| ESLint/TSLint         | Padronização JS/TS                                   | Airbnb Style Guide              |
-| SonarQube            | Análise estática                                     | Regras personalizadas           |
-| Prettier             | Formatação automática                                | `.prettierrc`                   |
+### Atualmente focado em:
 
-**Badge de Qualidade:**  
-![SonarCloud](https://img.shields.io/sonar/quality_gate/your-project-key?server=https%3A%2F%2Fsonarcloud.io)
+- Aprimorar minhas habilidades com **Golang** para back-end de alta performance  
+- Expandir conhecimento em **DevOps e infraestrutura**  
+- Criar um **portfólio sólido** com projetos reais e bem documentados  
 
 ---
 
-## 📌 Boas Práticas Complementares
-
-1. **Documentação Viva**:  
-   - Swagger para APIs (`/v3/api-docs`)  
-   - Storybook para componentes UI
-
-2. **Code Reviews**:  
-   ```markdown
-   ### Checklist PR:
-   - [ ] Testes atualizados
-   - [ ] Documentação técnica
-   - [ ] Aderência ao ESLint
-   ```
-
-3. **Feature Flags**:  
-   ```typescript
-   if (featureFlags.isEnabled('NEW_SEARCH')) {
-     // Nova implementação
-   }
-   ```
-
-4. **Observabilidade**:  
-   - Tracing com OpenTelemetry  
-   - Logs estruturados (JSON)
-
-*📄 Licença: [MIT](https://choosealicense.com/licenses/mit/)*  
-*🔧 Contribuições são bem-vindas! Siga o [guia de contribuição](CONTRIBUTING.md)*
