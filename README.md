@@ -8,14 +8,6 @@
 
 ---
 
-### 👨‍💻 Sobre mim
-
-Sou engenheiro de software em formação, com experiência sólida no desenvolvimento mobile com Flutter e cada vez mais apaixonado por back-end, DevOps e sistemas distribuídos.
-
-Tenho interesse especial por ambientes Linux, arquiteturas escaláveis, automação de processos e tudo que envolva criar software robusto e bem estruturado.
-
----
-
 ### Tecnologias & Ferramentas
 
 - **Mobile**: Flutter, Dart  
